@@ -19,6 +19,7 @@ bjork(5,16); // returns '1001001001001000'
 bjork(4,16); // returns '1000100010001000'
 
 `````
+The method outputs the pattern as a string where `1`s represent pulses and `0`s represent empty slots.
 
 ### Dependencies
  * Lodash
