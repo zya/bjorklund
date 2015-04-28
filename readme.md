@@ -4,11 +4,12 @@ Generates binary sequence patterns based on [Bjorklund](https://ics-web.sns.ornl
 > The algorithm solves the general problem of distributing `n`pulses over `m` “timing slots” in the most even way possible, even though `n`
 may not necessarily be an even divisor of `m`.
 
-These patterns can be used to achieve complex musical rhythms known as [Euclidean] (http://cgm.cs.mcgill.ca/~godfried/publications/banff.pdf) Rhythms.
+These patterns can be used to achieve complex musical rhythms known as [Euclidean](http://cgm.cs.mcgill.ca/~godfried/publications/banff.pdf) Rhythms.
 ## Example Usage
 `````
 npm install bjorklund
 `````
+
 `````js
 var bjork = require('bjorklund');
 
