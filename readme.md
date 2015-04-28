@@ -6,6 +6,9 @@ may not necessarily be an even divisor of `m`.
 
 These patterns can be used to achieve complex musical rhythms known as [Euclidean] (http://cgm.cs.mcgill.ca/~godfried/publications/banff.pdf) Rhythms.
 ## Example Usage
+`````
+npm install bjorklund
+`````
 `````js
 var bjork = require('bjorklund');
 
