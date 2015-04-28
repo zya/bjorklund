@@ -10,9 +10,9 @@ These patterns can be used to achieve complex musical rhythms known as [Euclidea
 var bjork = require('bjorklund');
 
 bjork(2,5); // returns '10100'
-bjork(3, 7); // returns '1010100'
-bjork(5, 16); // returns '1001001001001000'
-bjork(4, 16); // returns '1000100010001000'
+bjork(3,7); // returns '1010100'
+bjork(5,16); // returns '1001001001001000'
+bjork(4,16); // returns '1000100010001000'
 
 `````
 
