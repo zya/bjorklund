@@ -5,7 +5,7 @@
   "main": "bjorklund.js",
   "scripts": {
     "test": "mocha",
-    "build": "browserify bjorklund.js > build/bjorklund.js"
+    "build": "browserify bjorklund.js --s bjorklund > build/bjorklund.js; browserify bjorklund.js --s bjorklund | uglifyjs > build/bjorklund.min.js"
   },
   "keywords": [
     "bjorklund",
@@ -21,7 +21,8 @@
   "devDependencies": {
     "browserify": "^9.0.8",
     "chai": "^2.3.0",
-    "mocha": "^2.2.4"
+    "mocha": "^2.2.4",
+    "uglify-js": "^2.4.23"
   },
   "dependencies": {
     "lodash": "^3.7.0"
