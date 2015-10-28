@@ -1,6 +1,6 @@
 {
   "name": "bjorklund",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Bjorklund binary sequence algorithm",
   "main": "bjorklund.js",
   "scripts": {
