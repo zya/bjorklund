@@ -7,10 +7,14 @@ module.exports = function bjorklund(pulses, length) {
   zeros.length = pulses >= length ? 0 : length - pulses;
   _.fill(ones, '1');
   _.fill(zeros, '0');
+
   return generate_one_based(ones, zeros);
 };
 
 function generate_one_based(ones, zeros) {
+  if (ones.length === 0) {
+    return zeros.join().replace(/,/g, '');;
+  }
   if (zeros.length > 0) {
     var zipped = _.zip(ones, zeros).map(function (item) {
       return _.compact(item).join().replace(/,/g, '');

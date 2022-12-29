@@ -70,4 +70,11 @@ describe('bjorklund', function () {
     assert.equal(bjork(7, 5), bjork(5, 5));
   });
 
+  it('supports passing 0 for pulses', function () {
+    assert.equal(bjork(0, 5), '00000');
+  });
+
+  it('returns empty if slots is zero', function() {
+    assert.equal(bjork(5, 0), '');
+  });
 });
